@@ -1,0 +1,101 @@
+/**
+ * ----------------------------------------------
+ * SIMPLE RESET
+ * ----------------------------------------------
+ */
+
+html {
+  font-size: $default-font-size;
+  @media (max-width: 1024px) {
+    font-size: 14px;
+  }
+}
+
+body {
+  background: $white;
+  color: $default-color;
+  font-weight : 400;
+  font-family: $body-font;
+  line-height: 1.75rem;
+  &[data-aos-easing]{
+    overflow-x: hidden;
+  }
+}
+
+.barlow-open{
+  font-family: $opan-sans-font;
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .more-link,
+  strong{
+    font-family: $barlow-heading-font;
+    font-weight: 500;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+a,
+a:hover,
+a:focus,
+button:hover,
+button:focus {
+  outline: 0;
+  text-decoration: none;
+}
+
+a {
+  color: $default-color;
+}
+
+ul,li {
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  margin: 0px;
+  font-family: $heading-font;
+  color: $heading-color;
+  font-weight: 500;
+  small{
+    font-weight: 500;
+  }
+}
+
+h1,h2{
+  line-height: 1.25;
+}
+
+h3,h4,h5,h6{
+  line-height: 1.5;
+}
+
+h6,.h6{
+  font-size: px-rem-converter(18px);
+}

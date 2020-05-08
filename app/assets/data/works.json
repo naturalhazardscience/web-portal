@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "image": "project-4-450.jpg",
+        "content":"<p>This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. Only for show. He who searches for meaning here will be sorely disappointed. These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation.</p><p>It’s Greek to you. Unless, of course, you’re Greek, in which case, it really makes no sense. Why, you can’t even read it! It is strictly for mock-ups. You may mock it up as strictly as you wish.</p>",
+        "category": ["Photography"],
+        "client": ["Digital Studio"],
+        "timeline":"9 Months",
+        "tags": ["Product", "Photography"],
+        "relatedPost1":{
+            "image": "project-1.jpg",
+            "id": 2,
+            "projectName": "App Landing page"
+        },
+        "relatedPost2":{
+            "image": "project-5.jpg",
+            "id": 3,
+            "projectName": "Dalmia"
+        }
+    },
+    {
+        "id": 2,
+        "image": "project-1-450.jpg",
+        "content":"<p>This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. Only for show. He who searches for meaning here will be sorely disappointed. These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation.</p><p>It’s Greek to you. Unless, of course, you’re Greek, in which case, it really makes no sense. Why, you can’t even read it! It is strictly for mock-ups. You may mock it up as strictly as you wish.</p>",
+        "category": ["Photography"],
+        "client": ["Digital Agency"],
+        "timeline":"4 Months",
+        "tags": ["Studio", "Product"],
+        "relatedPost1":{
+            "image": "project-4.jpg",
+            "id": 1,
+            "projectName": "LAMP"
+        },
+        
+        "relatedPost2":{
+            "image": "project-5.jpg",
+            "id": 3,
+            "projectName": "Dalmia"
+        }
+    },
+    {
+        "id": 3,
+        "image": "project-5-450.jpg",
+        "content":"<p>This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. Only for show. He who searches for meaning here will be sorely disappointed. These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation.</p><p>It’s Greek to you. Unless, of course, you’re Greek, in which case, it really makes no sense. Why, you can’t even read it! It is strictly for mock-ups. You may mock it up as strictly as you wish.</p>",
+        "category": ["Photography"],
+        "client": ["Web Design"],
+        "timeline":"1 Year",
+        "tags": ["Digital Agency", "Web Design"],
+        "relatedPost1":{
+            "image": "project-4.jpg",
+            "id": 1,
+            "projectName": "LAMP"
+        },
+        
+        "relatedPost2":{
+            "image": "project-1.jpg",
+            "id": 3,
+            "projectName": "App Landing page"
+        }
+    },
+    {
+        "id": 4,
+        "image": "project-6-450.jpg",
+        "content":"<p>This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. Only for show. He who searches for meaning here will be sorely disappointed. These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation.</p><p>It’s Greek to you. Unless, of course, you’re Greek, in which case, it really makes no sense. Why, you can’t even read it! It is strictly for mock-ups. You may mock it up as strictly as you wish.</p>",
+        "category": ["Photography"],
+        "client": ["Digital Studio"],
+        "timeline":"6 Months",
+        "tags": ["Product", "UI/UX"],
+        "relatedPost1":{
+            "image": "project-2.jpg",
+            "id": 5,
+            "projectName": "Hunger"
+        },
+        
+        "relatedPost2":{
+            "image": "project-3.jpg",
+            "id": 6,
+            "projectName": "Sketch"
+        }
+    },
+    {
+        "id": 5,
+        "image": "project-2-450.jpg",
+        "content":"<p>This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. Only for show. He who searches for meaning here will be sorely disappointed. These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation.</p><p>It’s Greek to you. Unless, of course, you’re Greek, in which case, it really makes no sense. Why, you can’t even read it! It is strictly for mock-ups. You may mock it up as strictly as you wish.</p>",
+        "category": ["Agency"],
+        "client": ["Digital Marketing"],
+        "timeline":"6 Months",
+        "tags": ["Deisgn", "UI/UX"],
+        
+        "relatedPost1":{
+            "image": "project-6.jpg",
+            "id": 4,
+            "projectName": "Pitch Club"
+        },
+        
+        "relatedPost2":{
+            "image": "project-3.jpg",
+            "id": 6,
+            "projectName": "Sketch"
+        }
+    },
+    {
+        "id": 6,
+        "image": "project-3-450.jpg",
+        "content":"<p>This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. Only for show. He who searches for meaning here will be sorely disappointed. These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation.</p><p>It’s Greek to you. Unless, of course, you’re Greek, in which case, it really makes no sense. Why, you can’t even read it! It is strictly for mock-ups. You may mock it up as strictly as you wish.</p>",
+        "category": ["UI/UX"],
+        "client": ["Digital Studio"],
+        "timeline":"6 Months",
+        "tags": ["UI/UX", "Photography"],
+        "relatedPost1":{
+            "image": "project-2.jpg",
+            "id": 5,
+            "projectName": "Hunger"
+        },
+        
+        "relatedPost2":{
+            "image": "project-6.jpg",
+            "id": 4,
+            "projectName": "Pitch Club"
+        }
+    }
+]

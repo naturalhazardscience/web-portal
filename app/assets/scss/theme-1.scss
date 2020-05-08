@@ -1,0 +1,198 @@
+@import "general/base/variables";
+@import "general/utils/mixins";
+@import "general/utils/functions";
+
+$theme-color:  #3584A7;
+/**
+* ----------------------------------------------
+* Grediant CODES
+* ----------------------------------------------
+*
+*/
+$btn-gred: linear-gradient(to right, #473B7B 0%, #3584A7 51%, #473B7B 100%);
+$btn-outline-gred: linear-gradient(to right, #473B7B 0%, #3584A7 100%);
+$gradient-overlay: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+$text-gradient: linear-gradient(to right, #3584A7 0%, #473B7B 100%);
+$text-gradient-reverse: linear-gradient(-225deg, #30D2BE 0%,#3584A7 50%, #473B7B 100%);
+
+/**
+* ----------------------------------------------
+* Set base color, background's and button's color
+* ----------------------------------------------
+*
+*/
+a{
+    &:hover{
+        color: $theme-color;
+    }
+}
+.grediant-overlay, .bg-gred {
+    background-image: $gradient-overlay;
+}
+
+.grediant-overlay-reverse, .bg-reverse-gred {
+    background-image: $text-gradient-reverse;
+}
+
+.gred-bg{
+    &.fixed-nav{
+        @include gradient($gradient-overlay);
+    }
+}
+
+.text-grediant {
+    @include text-gradient($text-gradient);
+}
+
+.scroll-top{
+    &:hover{
+        .scroll-top-icon {
+            background-color: $theme-color;
+        }
+    }
+}
+
+.border-gred{
+    border-image: $text-gradient;
+    border-image-slice: 1;
+}
+
+
+.icon-img{ 
+    color: $theme-color;
+}
+
+.text-primary{
+    color: $theme-color !important;
+}
+
+.bg-primary{
+    background: $theme-color !important;
+}
+
+.close {
+    &:hover {
+        color: $theme-color;
+    }
+}
+
+.more-link {
+    &:after {
+        background: $theme-color;
+    }
+    &:hover {
+        color: $theme-color;
+    }
+}
+
+
+.btn-primary {
+    @include gradient($btn-gred);
+    color: $white;
+    &:hover{
+      color: $white;
+    }
+}
+
+.btn-outline-primary{
+    @include gradient($btn-outline-gred, padding-box, border-box, border-box);
+    padding: 0.5rem 1.25rem;
+    &:hover,&:focus,&:active {
+    background: $theme-color;
+    @include gradient($btn-gred,border-box, padding-box,border-box);
+    }
+}
+
+
+.btn-primary {
+    &:not(:disabled) {
+        &:not(.disabled) {
+            &.active,
+            &:active {
+            @include gradient($btn-gred);
+            color: $white;
+            }
+        }
+    }
+}
+
+.btn-outline-white{
+    &:hover{
+        color: $theme-color;
+        background: $white;
+    }
+}
+
+.btn-white{
+    color: $theme-color;
+}
+
+.owl-carousel {
+    .owl-dots{
+        .owl-dot:hover, .active{
+        &:after{
+            background: $theme-color;
+        }
+        }
+    }
+    .owl-nav {
+        button.owl-next,
+        button.owl-prev {
+        color: $theme-color;
+        }
+    }
+}
+
+.slider-for {
+    &:after,
+    &:before {
+      color: $theme-color;
+    }
+}
+
+.slider-nav{
+    &:after,
+    &:before {
+      color: $theme-color;
+    }
+    .slick-dots{
+      li{
+        button{
+          &:after{
+            background-color: $theme-color;
+          }
+        }
+      }
+    }
+}
+
+.preloader {
+    .bar-loader {
+        span{
+            background: $theme-color;
+        }
+    }
+}
+
+.blog-box-1{
+    .blog-title {
+        &:hover {
+          h6 {
+            color: $theme-color;
+          }
+        }
+    }
+}
+
+
+.work-list {
+    .control {
+        &:after{
+            background-color: $theme-color;
+        }  
+        &.filtr-active,
+        &:hover {
+            color: $theme-color;
+        }
+    }
+}

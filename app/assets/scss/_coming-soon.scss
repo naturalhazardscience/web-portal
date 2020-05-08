@@ -1,0 +1,53 @@
+
+/**
+* ----------------------------------------------
+* Background slider css
+* ----------------------------------------------
+*/
+.coming-soon-slider{
+  @include position(fixed,0,0,0,0);
+  height: 100vh;
+}
+
+/**
+* ----------------------------------------------
+* Content css
+* ----------------------------------------------
+*/
+.coming-soon-content{
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  //Black theme css
+  &.black-theme{
+    .circle-col{
+      border-color: $black;
+    }
+    .join-us-form{
+      .form-control{
+        color: $black;
+        border-color: $black;
+        &::placeholder{
+          color: $black;
+        }
+      }
+      button{
+        color: $black;
+      }
+    }
+  }
+  @media (max-width: 767px){
+    .circle-col{
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+  @media (max-width: 479px){
+    .circle-col{
+      margin: auto auto 30px auto;
+    }
+  }
+}

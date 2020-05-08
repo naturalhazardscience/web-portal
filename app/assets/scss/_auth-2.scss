@@ -1,0 +1,108 @@
+@import "general/base/variables";
+@import "general/utils/mixins";
+@import "general/utils/functions";
+
+$theme-color:  #4458dc;
+
+/**
+* ----------------------------------------------
+* Grediant CODES
+* ----------------------------------------------
+*
+*/
+$btn-gred: linear-gradient(to right, #7202bb 0%, #3264f5 51%, #7202bb 100%);
+
+/**
+* ----------------------------------------------
+* Auth Login/Register banner css
+* ----------------------------------------------
+*/
+.auth-banner-section{
+    background: url(#{$image-path}/office-1280.jpg) no-repeat 0 0 / cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media only screen and (max-width:767px) {
+        min-height: auto;
+        padding: 100px 0;
+    }
+}
+
+
+/**
+* ----------------------------------------------
+* Auth Login/Register css for screen 2
+* ----------------------------------------------
+*/
+.auth-screen-2{
+    padding: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    .form-control{
+        height: calc(2.50rem + 2px);
+        padding: 7px 15px;
+        @include border(null, 1px, solid, $border-color);
+        background: none;
+        &:focus{
+            border-color: $theme-color !important;
+            & ~ *{
+                .input-group-text{
+                    border-color: $theme-color;
+                    border-left: none;
+                }
+            }
+        }
+    }
+    .input-group-text {
+        border-color: $border-color;
+        background: none;
+    }
+    .nav-get-started{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+        @include position(absolute, 4rem, 0, null, 0);
+        padding-right: 4rem;
+        @media only screen and (max-width:479px) {
+            padding-right: 15px;
+        }
+        & > p{
+            margin-bottom: 0;
+            margin-right: 1rem;
+            padding-bottom: 8px;
+        }
+    }
+    .auth-content{
+        max-width: 450px;
+        margin: 40px auto 0;
+        width: 100%;
+    }
+    form{
+        width: 100%; 
+    }
+    .welcome-text{
+        padding-top: 3rem;
+        margin-bottom: 2rem;
+    }
+    .auth-footer{
+        margin-top: 3rem;
+        ul{
+            display: flex;
+            li{
+                margin-right: 10px;
+                @include border(right, 1px, solid, $border-color);
+                padding-right: 10px;
+                &:last-child{
+                    margin-right: 0;
+                    border-right: none;
+                    padding-right: 0;
+                }
+            }
+        }
+    }
+}

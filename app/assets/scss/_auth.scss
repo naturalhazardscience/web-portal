@@ -1,0 +1,64 @@
+@import "general/base/variables";
+@import "general/utils/mixins";
+@import "general/utils/functions";
+
+$theme-color:  #4458dc;
+
+/**
+* ----------------------------------------------
+* Grediant CODES
+* ----------------------------------------------
+*
+*/
+$btn-gred: linear-gradient(to right, #7202bb 0%, #3264f5 51%, #7202bb 100%);
+
+/**
+* ----------------------------------------------
+* Auth Login/Register css
+* ----------------------------------------------
+*/
+.auth-screen{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    .auth-form{
+        background: $white;
+        border-radius: 5px;
+        padding: 2.5rem;
+        box-shadow: 0 0 37.7px 11.3px rgba(8,143,220,.07);
+        width: 100%;
+        .form-control{
+            height: calc(2.50rem + 2px);
+            padding: 7px 15px;
+            @include border(null, 1px, solid, $border-color);
+            background: none;
+            &:focus{
+                border-color: $theme-color !important;
+                & ~ *{
+                    .input-group-text{
+                        border-color: $theme-color;
+                        border-left: none;
+                    }
+                }
+            }
+        }
+        .input-group-text {
+            border-color: $border-color;
+            border-left: none;
+            background: none;
+        }
+    }
+}
+
+.additional-link{
+    margin-top: 30px;
+    text-align: center;
+    .g-login{
+        background:$white;
+        @include border(null, 1px, solid, $border-color);
+        width: 100%;
+        border-radius: 5px;
+        padding: 10px;
+        cursor: pointer;
+    }
+}

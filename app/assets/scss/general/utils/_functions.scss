@@ -1,0 +1,14 @@
+/*
+* @description Get theme color
+* Pass object and key of obj, Get value from variables 
+*/
+@function get-theme-color($obj, $key) {
+    @return map-get($map: $obj, $key: $key);
+}
+
+/*
+* Convert px to rem Unit
+*/
+@function px-rem-converter($size){
+    @return $size/$default-font-size + rem;
+}
