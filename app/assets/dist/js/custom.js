@@ -32,7 +32,7 @@ var workList = (function ($) {
     * Hide single Portfolio call
     * ----------------------------------------------
     */
-    hideSinglePortfolio();  
+    hideSinglePortfolio();
 
 
     /**
@@ -50,13 +50,13 @@ var workList = (function ($) {
     typewriter();
 
    return workList
-  
+
 })(jQuery);
 
 
 /**
  * ----------------------------------------------
- * Nav Scroll active section class 
+ * Nav Scroll active section class
  * ----------------------------------------------
  */
 function windowScroll() {
@@ -102,7 +102,7 @@ function showSinglePortfolio(){
          */
         workList.then(function(list){
             console.log("list", list)
-            var data = list[index - 1], img, headingText, headingSubtitle, 
+            var data = list[index - 1], img, headingText, headingSubtitle,
             headerStr, tagStr, prevWork, nextWork;
             img = "<img src=assets/images/works/"+data.image+" alt='project'"+index+"/>";
             headingText = self.find(".grid-title").text();
@@ -191,23 +191,6 @@ function slickSlider(){
     });
 }
 
-
-/**
-* ----------------------------------------------
-* Typewriter
-* ----------------------------------------------
-*/
-function typewriter(){
-    if ($("#typewriter").length) {
-        new Typed('#typewriter', {
-            strings: ["HTML Template", "Portfolio Template", "Multipurpose Template"],
-            typeSpeed: 100,
-            backSpeed: 50,
-            loop: true,
-            backDelay: 1000
-        });
-    }
-}
 
 
 /**

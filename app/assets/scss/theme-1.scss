@@ -13,7 +13,7 @@ $btn-gred: linear-gradient(to right, #473B7B 0%, #3584A7 51%, #473B7B 100%);
 $btn-outline-gred: linear-gradient(to right, #473B7B 0%, #3584A7 100%);
 $gradient-overlay: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
 $text-gradient: linear-gradient(to right, #3584A7 0%, #473B7B 100%);
-$text-gradient-reverse: linear-gradient(-225deg, #30D2BE 0%,#3584A7 50%, #473B7B 100%);
+$text-gradient-reverse: linear-gradient(-225deg, #30D2BE 0%,red 50%, yellow 100%);
 
 /**
 * ----------------------------------------------
@@ -58,7 +58,7 @@ a{
 }
 
 
-.icon-img{ 
+.icon-img{
     color: $theme-color;
 }
 
@@ -189,7 +189,7 @@ a{
     .control {
         &:after{
             background-color: $theme-color;
-        }  
+        }
         &.filtr-active,
         &:hover {
             color: $theme-color;
