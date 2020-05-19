@@ -1,0 +1,206 @@
+<!-- Removed from line 480- **************************************-->
+<!-- **************Testimonials Section**************-->
+<!-- **************************************-->
+<section class="testimonials-section section-spacer bg-light" data-scroll-index="2">
+    <div class="container">
+        <!--==== Section Heading Text =====-->
+        <div class="section-header">
+            <h2><small class="text-primary">Happy Clients</small> Testimonials</h2>
+        </div>
+        <div class="slider-for">
+            <!--==== Single Testimonial Item=====-->
+            <div class="item">
+                <p>Repellat11 dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia
+                    nesciunt. Ducimus aut sed ipsam. Autem eaque officia cum exercitationem. Repellat
+                    dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea
+                    quia nesciunt. Ducimus aut sed ipsam. Autem eaque officia cum exercitationem. </p>
+            </div>
+            <!--==== Single Testimonial Item=====-->
+            <div class="item">
+                <p>Repellat22 dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia
+                    nesciunt. Ducimus aut sed ipsam. Autem eaque officia cum exercitationem. Repellat
+                    dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea
+                    quia nesciunt. Ducimus aut sed ipsam. Autem eaque officia cum exercitationem. </p>
+            </div>
+            <!--==== Single Testimonial Item=====-->
+            <div class="item">
+                <p>Repellat33 dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia
+                    nesciunt. Ducimus aut sed ipsam. Autem eaque officia cum exercitationem. Repellat
+                    dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea
+                    quia nesciunt. Ducimus aut sed ipsam. Autem eaque officia cum exercitationem. </p>
+            </div>
+        </div>
+        <!--==== Testimonial Navigation=====-->
+        <div class="slider-nav">
+            <!--==== Testimonial Nav Item=====-->
+            <div class="meta-data">
+                <div class="author-image">
+                    <img src="assets/images/testimonial-image.jpg" alt="Author image" />
+                </div>
+                <h6>Satya Nadella <small>CEO, Microsoft</small></h6>
+            </div>
+            <!--==== Testimonial Nav Item=====-->
+            <div class="meta-data">
+                <div class="author-image">
+                    <img src="assets/images/testimonial-image-2.jpg" alt="Author image" />
+                </div>
+                <h6>Sundar Pichai <small>CEO, Google</small></h6>
+            </div>
+            <!--==== Testimonial Nav Item=====-->
+            <div class="meta-data">
+                <div class="author-image">
+                    <img src="assets/images/testimonial-image-3.jpg" alt="Author image" />
+                </div>
+                <h6>Tim Cook <small>CEO, Apple</small></h6>
+            </div>
+            <!--==== Testimonial Nav Item=====-->
+            <div class="meta-data">
+                <div class="author-image">
+                    <img src="assets/images/testimonial-image.jpg" alt="Author image" />
+                </div>
+                <h6>Satya Nadella <small>CEO, Microsoft</small></h6>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+        <!-- **************************************-->
+        <!-- **************Pricing**************-->
+        <!-- **************************************-->
+        <section class="pt-100 pb-80" data-scroll-index="3">
+            <div class="container">
+                <!--==== Section Heading Text =====-->
+                <div class="section-header">
+                    <h2><small class="text-primary">Most flexible</small> Pricing</h2>
+                </div>
+                <div class="row">
+                    <!--==== Single Pricing Box =====-->
+                    <div class="col-md-4 mb-30" data-aos="zoom-in" data-aos-duration="300">
+                        <div class="pricing-card-box-1 box-shadow">
+                            <div class="pricing-header bg-primary">
+                                <h4 class="plan-title">Starter</h4>
+                                <h2 class="plan-price">
+                                    <sup>$</sup>10<small>/ Per month</small>
+                                </h2>
+                            </div>
+                            <div class="pricing-body">
+                                <ul class="list-unstyled">
+                                    <li><strong>6</strong> Months Support</li>
+                                    <li><strong>2</strong> Demos</li>
+                                    <li>Unlimited updates</li>
+                                    <li><strong>24/7</strong> Support</li>
+                                    <li><strong>1</strong> Domain</li>
+                                </ul>
+                                <div class="pricing-footer">
+                                    <a href="#" class="btn btn-primary">
+                                        Buy Now
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--==== Single Pricing Box =====-->
+                    <div class="col-md-4 mb-30" data-aos="zoom-in" data-aos-duration="400">
+                        <div class="pricing-card-box-1 recommanded-card box-shadow">
+                            <div class="pricing-header bg-primary">
+                                <h4 class="plan-title">Standard</h4>
+                                <h2 class="plan-price">
+                                    <sup>$</sup>25<small>/ Per month</small>
+                                </h2>
+                            </div>
+                            <div class="pricing-body">
+                                <ul class="list-unstyled">
+                                    <li><strong>12</strong> Months Support</li>
+                                    <li><strong>10</strong> Demos</li>
+                                    <li>Unlimited updates</li>
+                                    <li><strong>24/7</strong> Support</li>
+                                    <li><strong>5</strong> Domain</li>
+                                </ul>
+                                <div class="pricing-footer">
+                                    <a href="#" class="btn btn-primary">
+                                        Buy Now
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--==== Single Pricing Box =====-->
+                    <div class="col-md-4 mb-30" data-aos="zoom-in" data-aos-duration="500">
+                        <div class="pricing-card-box-1 box-shadow">
+                            <div class="pricing-header bg-primary   ">
+                                <h4 class="plan-title">Premium</h4>
+                                <h2 class="plan-price">
+                                    <sup>$</sup>49<small>/ Per month</small>
+                                </h2>
+                            </div>
+                            <div class="pricing-body">
+                                <ul class="list-unstyled">
+                                    <li>Unlimited Support</li>
+                                    <li>Unlimited Demos</li>
+                                    <li>Unlimited updates</li>
+                                    <li><strong>24/7</strong> Support</li>
+                                    <li>Unlimited Domain</li>
+                                </ul>
+                                <div class="pricing-footer">
+                                    <a href="#" class="btn btn-primary">
+                                        Buy Now
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- **************************************-->
+        <!-- **************Contact Us Section**************-->
+        <!-- **************************************-->
+        <section class="contact-us-form theme-1 section-spacer" data-scroll-index="6">
+            <div class="container">
+                <!--==== Section Heading Text =====-->
+                <div class="section-header">
+                    <h2><small class="text-primary">contact us</small>Get in touch</h2>
+                </div>
+                <!--==== Contact Us form =====-->
+                <form id="validation-form" class="h-100" novalidate="novalidate" data-aos="fade"
+                    data-aos-duration="400">
+                    <div id="message" class="alert alert-success d-none"></div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="validation-firstname"
+                                    placeholder="Firstname">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="validation-lastname"
+                                    placeholder="Lastname">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="validation-email" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="validation-phone" placeholder="Phone">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group">
+                                <textarea class="form-control message" name="validation-message"
+                                    placeholder=" Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="w-100 text-center">
+                            <button type="submit" class="btn btn-primary btn-rounded">Contact Now</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
