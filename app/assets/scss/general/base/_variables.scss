@@ -1,0 +1,87 @@
+
+/**
+ * ----------------------------------------------
+ * Font Faces
+ * ----------------------------------------------
+ *
+*/
+$body-font: 'Roboto',sans-serif;
+$heading-font: 'Poppins', sans-serif;
+$opan-sans-font: 'Open Sans',sans-serif;
+$barlow-heading-font: 'Barlow', sans-serif;
+$fontawesome-font-family: "FontAwesome";
+$simple-line-icon: 'simple-line-icons';
+
+/**
+ * ----------------------------------------------
+ * Font Sizes
+ * ----------------------------------------------
+ *
+*/
+$default-font-size: 16px;
+$grid-title-font-size: 14px;
+$author-size: 12px;
+$service-icon-font-size: 2.75rem;
+
+
+/**
+ * ----------------------------------------------
+ * COLOR CODES
+ * ----------------------------------------------
+ *
+*/
+$white:                 #ffffff;
+$black:                 #000000;
+$default-color:         #777;
+$heading-color:         #343A3A;
+$btn-default-color:     #ddd;
+$subtitle-color:        #888888;
+$border-color:          #f1f2f3;
+$bg-light:              #fcfcfc !important;
+$light:                 #fcfcfc;
+$nav-color:             rgba(0,0,0,1);
+$para-color:            #464646;
+$tab-title-color:       rgba(0,0,0,0.5);
+$overlay-bg:            rgba(0,0,0,1);
+$rating-color:          #fac50f;
+$image-path:            '../../images';
+$footer-bg:             #444444;
+$copyright-bg:          #2E303C;
+$link-color:            #222;
+$dot-color:             #ccc;
+$sidemenu-bg:           #0c0c0c; 
+
+/**
+* ----------------------------------------------
+* Shadows CODES
+* ----------------------------------------------
+*
+*/
+$box-shadow: 0px 3px 10px 0px rgba(38, 59, 94, 0.1);
+
+/**
+ * ----------------------------------------------
+ * Loop classes
+ * ----------------------------------------------
+ *
+*/
+$social-colors: (fb:#3b579d, tw:#1da1f2, dribble: #ea4c89, ln:#0177b4, gplus:#dc4a38);
+$social-hvr-colors: (fb:#2d4278, tw:#0c85d0, dribble: #e51e6b, ln:#015581, gplus:#bf3322);
+
+/**
+ * ----------------------------------------------
+ * Theme colors
+ * ----------------------------------------------
+ *
+*/
+$theme-color-1:           #3584A7;
+$theme-color-2:           #4458dc;
+$heading-color-theme-2:   #2540f0;
+$theme-color-3:           #3264f5;
+$secondary-color-style-3: #7202bb;
+$theme-color-4:           #00d2b5;
+$theme-color-5:           #4ac366;
+$theme-color-6:           #9b1be5;
+
+
+

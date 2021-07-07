@@ -1,0 +1,48 @@
+/**
+* ----------------------------------------------
+* Contact Us  css
+* ----------------------------------------------
+*/
+.contact-us-content{
+    .phone-number{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: $black;
+        font-weight: 500;
+        padding-bottom: 5px;
+        a{
+            margin-top: 0;
+        }
+        @media (max-width:767px){
+            flex-wrap: wrap;
+            span{
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+        span{  
+            @include border(bottom, 2px, solid, $theme-color-3);
+        }
+    }
+    .address{
+        margin-top: 30px;
+        min-height: 300px;
+        align-items: center;
+        display: flex;
+        padding: 50px 0;
+        position: relative;
+        background: url('#{$image-path}/contact-us.jpg') no-repeat center center / cover;
+        @media (max-width:767px){
+            min-height: 200px;
+        }
+        .address-info{
+            padding: 0 30px;
+            color: $white;
+            h3{
+                color: $white;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

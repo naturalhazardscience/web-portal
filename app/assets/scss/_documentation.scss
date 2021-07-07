@@ -1,0 +1,53 @@
+$gradient-overlay: linear-gradient(to right, #7202bb 2%, #3264f5 82%);
+.documentation-wrapper{
+    padding: 0 2.1rem;
+    background: $light;
+    margin-bottom: 3rem;
+    .card{
+        border: none;
+        margin-bottom: 1rem;
+    }
+    .card-header{
+        @include gradient($gradient-overlay);
+        border: none;
+        h5{
+            color: $white;
+        }
+        &:first-child{
+            border-radius: calc(.25rem - 1px);
+        }
+    }
+    .doc-header {
+        padding: 24px 2.1rem;
+        @include position(fixed,0,0,null,0,2);
+        background: $light;
+    }
+    .doc-table-contents {
+        overflow: auto;
+        @include position(fixed,140px,0,0,calc(2.1rem - 15px),1);
+    }
+    .doc-content {
+        padding-top: 140px;
+    }
+    .list-arrow{
+        li{
+            margin-bottom: 0.75rem;
+            &:before {
+                content: '\e606';
+                color: #F1635F;
+                font-family: "simple-line-icons";
+                font-size: 0.7rem;
+            }
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+    }
+    ul{
+        padding-left: 20px;
+        list-style: none;
+        pre{
+            margin-bottom: 0.25rem;
+        }
+    }
+}

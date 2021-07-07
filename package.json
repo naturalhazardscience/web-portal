@@ -1,0 +1,23 @@
+{
+  "name": "letstart",
+  "version": "1.0.0",
+  "description": "LetStart sp is a single page or one page landing page for creating portfolio and landing page websites built with Bootstrap 4 Framework, HTML5, CSS and JQuery.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MatrrDigital",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-watch": "^5.0.1",
+    "gulp-sourcemaps": "^1.12.1",
+    "gulp-clean-css": "^2.0.8"
+  }
+}

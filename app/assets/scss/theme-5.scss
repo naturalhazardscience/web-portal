@@ -1,0 +1,53 @@
+@import "general/base/variables";
+@import "general/utils/mixins";
+@import "general/utils/functions";
+
+$theme-color:  #4ac366;
+
+
+/**
+* ----------------------------------------------
+* Set base color, background's and button's color
+* ----------------------------------------------
+*
+*/
+a{
+    &:hover{
+        color: $theme-color;
+    }
+}
+
+.scroll-top {
+    &:hover{
+        .scroll-top-icon {
+            background-color: $theme-color;
+        }
+    }
+}
+
+.theme-color{
+    color: $theme-color;
+}
+
+.close{
+    &:hover {
+        color: $theme-color;
+    }
+}
+
+.close-btn{
+    a{
+        &:hover {
+            color: $theme-color;
+        }
+    }
+}
+
+.more-link {
+    &:after {
+        background: $theme-color;
+    }
+    &:hover {
+        color: $theme-color;
+    }
+}

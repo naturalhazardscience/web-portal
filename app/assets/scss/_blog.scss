@@ -1,0 +1,225 @@
+/**
+ * ----------------------------------------------
+ * Blog header  css
+ * ----------------------------------------------
+ */
+.blog-header {
+  margin-bottom: 30px;
+  //Blog title
+  .post-title {
+    margin-bottom: 0.5rem;
+    color: $theme-color-3;
+  }
+  //Blog meta data
+  .post-meta {
+    font-size: px-rem-converter(12px);
+    color: $black;
+  }
+}
+
+/**
+ * ----------------------------------------------
+ * Blog body  css
+ * ----------------------------------------------
+ */
+.single-blog-post {
+  //Single post user thumb
+  .post-thumb {
+    margin-bottom: 30px;
+  }
+  //Single post description
+  .post-description {
+    .blockquote {
+      @include border(left, 5px, solid, $theme-color-3);
+      padding: 20px;
+      font-size: 1rem;
+    }
+  }
+  //Single post footer
+  .post-footer {
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+    padding-bottom: 2rem;
+    @include border(bottom, 1px, solid, $border-color);
+    .social-link {
+      margin-left: 1rem;
+      a {
+        border: 1px solid;
+      }
+    }
+  }
+  /**
+    * ----------------------------------------------
+    * Blog comments  css
+    * ----------------------------------------------
+    */
+  .comments-wrapper {
+    .media {
+      @include border(bottom, 1px, solid, $border-color);
+      padding: 2rem 0;
+      img {
+        width: 50px;
+        border-radius: 100%;
+      }
+      .media-body {
+        h6 {
+          margin-bottom: 0.75rem;
+          color: $black;
+        }
+        small{
+          font-size: px-rem-converter($grid-title-font-size);
+        }
+      }
+      .media {
+        @include border(top, 1px, solid, $border-color);
+        margin-top: 2rem;
+        border-bottom: none;
+        &:last-child {
+          padding-bottom: 0;
+        }
+        & + .media {
+          margin-top: 0;
+        }
+      }
+      &:first-child {
+        padding-top: 0;
+      }
+    }
+    .reply-icon {
+      @include border(null, 1px, solid, $theme-color-3);
+      color: $theme-color-3;
+      width: 35px;
+      height: 35px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 100%;
+      margin-top: 0.5rem;
+      @include transition(all 0.5s);
+      &:hover {
+        background-color: $theme-color-3;
+        color: $white;
+      }
+    }
+  }
+}
+
+/**
+ * ----------------------------------------------
+ * Blog sidebar  css
+ * ----------------------------------------------
+ */
+
+/**
+* ----------------------------------------------
+* widget version2 css
+* ----------------------------------------------
+*/
+.widget-v2 {
+  margin-bottom: 40px;
+  .widget-title {
+    padding-bottom: 0.5rem;
+    @include border(bottom, 1px, solid, $border-color);
+    margin-bottom: 1rem;
+  }
+}
+
+/**
+* ----------------------------------------------
+* widget version2 search css
+* ----------------------------------------------
+*/
+.widget-search-v2 {
+  .form-control {
+    @include border(null, 1px, solid, $border-color);
+    height: calc(2.5rem + 1px);
+    padding: 0.375rem 0.75rem;
+  }
+  .btn {
+    padding: 0.375rem 1rem;
+    min-width: auto;
+    margin-top: 0;
+  }
+}
+
+/**
+* ----------------------------------------------
+* widget archives css
+* ----------------------------------------------
+*/
+.widget-archive-list {
+  li {
+    margin-bottom: 0.75rem;
+    a {
+      display: flex;
+      justify-content: space-between;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+/**
+* ----------------------------------------------
+* widget version2 popular posts css
+* ----------------------------------------------
+*/
+.widget-post-v2 {
+  .media {
+    margin-bottom: 15px;
+    img {
+      border-radius: 4px;
+    }
+    .media-body {
+      margin-left: 0.75rem;
+      p{
+        font-size: px-rem-converter($grid-title-font-size);
+      }
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .media-body {
+    a {
+      display: block;
+      line-height: 1.25rem;
+    }
+    p {
+      display: block;
+      color: $theme-color-3;
+      font-weight: 500;
+    }
+  }
+}
+
+/**
+* ----------------------------------------------
+* widget version2 tags css
+* ----------------------------------------------
+*/
+.widget-tags-v2 {
+  .btn {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    padding: 0.75rem 1rem;
+  }
+}
+
+/**
+ * ----------------------------------------------
+ * Comment  css
+ * ----------------------------------------------
+ */
+.comments {
+  h2{
+    color: $theme-color-3;
+  }
+  &.bg-light {
+    .form-control {
+      background-color: $white !important;
+    }
+  }
+}

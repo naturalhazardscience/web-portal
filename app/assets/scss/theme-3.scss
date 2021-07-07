@@ -1,0 +1,236 @@
+
+@import "general/base/variables";
+@import "general/utils/mixins";
+@import "general/utils/functions";
+
+$theme-color:           #3264f5;
+$secondary-color:       #7202bb;
+
+/**
+* ----------------------------------------------
+* Grediant CODES
+* ----------------------------------------------
+*
+*/
+$btn-gred: linear-gradient(to right, #7202bb 0%, #3264f5 51%, #7202bb 100%);
+$btn-outline-gred: linear-gradient(white, white), radial-gradient(circle at top left, #7202bb, #3264f5);
+$gradient-overlay: linear-gradient(to right, #7202bb 2%, #3264f5 82%);
+$text-gradient: linear-gradient(to right, #7202bb 2%, #3264f5 82%);
+$text-gradient-reverse: linear-gradient(to right, #3264f5 2%, #7202bb 82%);
+
+
+/**
+* ----------------------------------------------
+* Set base color, background's and button's color
+* ----------------------------------------------
+*
+*/
+a{
+    &:hover{
+        color: $theme-color;
+    }
+}
+.grediant-overlay, .bg-gred {
+    background-image: $gradient-overlay;
+}
+
+.grediant-overlay-reverse, .bg-reverse-gred {
+    background-image: $text-gradient-reverse;
+}
+
+.gred-bg{
+    &.fixed-nav{
+        @include gradient($gradient-overlay);
+    }
+}
+
+.text-grediant {
+    @include text-gradient($text-gradient);
+}
+
+.scroll-top{
+    &:hover{
+        .scroll-top-icon {
+            background-color: $theme-color;
+        }
+    }
+}
+
+.icon-img{ 
+    color: $theme-color;
+}
+
+.text-primary{
+    color: $theme-color !important;
+}
+
+
+.text-secondary {
+    color: $subtitle-color !important;
+}
+
+.bg-primary{
+    background: $theme-color !important;
+}
+
+.close {
+    &:hover {
+        color: $theme-color;
+    }
+}
+
+.more-link {
+    &:after {
+        background: $theme-color;
+    }
+    &:hover {
+        color: $theme-color;
+    }
+}
+
+
+.btn-primary {
+    @include gradient($btn-gred);
+    color: $white;
+    &:hover{
+      color: $white;
+    }
+}
+
+.btn-outline-primary{
+    @include gradient($btn-outline-gred, padding-box, border-box, border-box);
+    padding: 0.5rem 1.25rem;
+    &:hover,&:focus,&:active {
+        background: $theme-color;
+        @include gradient($text-gradient,border-box, padding-box,border-box);
+    }
+}
+
+.btn-primary {
+    &:not(:disabled) {
+        &:not(.disabled) {
+            &.active,
+            &:active {
+            @include gradient($btn-gred);
+            color: $white;
+            }
+        }
+    }
+}
+
+.btn-outline-white{
+    &:hover{
+        color: $theme-color;
+        background: $white;
+    }
+}
+
+.btn-white{
+    color: $theme-color;
+}
+
+.btn-navigate{
+    border-color: $link-color;
+    color: $link-color;
+    &:after{
+      color: $theme-color;
+    }
+    &:hover{
+      color: $theme-color;
+      border-color: $theme-color;
+    }
+}
+
+.owl-carousel { 
+    .owl-dots{
+        .owl-dot:hover, .active{
+        &:after{
+            background: $theme-color;
+        }
+        }
+    }
+    .owl-nav {
+        button.owl-next,
+        button.owl-prev {
+        color: $theme-color;
+        }
+    }
+}
+
+.preloader {
+    .bar-loader {
+        span{
+            background: $theme-color;
+        }
+    }
+}
+
+.blog-box-3{
+    .blog-title {
+        &:hover {
+          h6 {
+            color: $theme-color;
+          }
+        }
+    }
+}
+
+.header {
+    &.link-nav{
+        &.fixed-nav{
+            .navbar-nav {
+                .nav-link {
+                    &.active,
+                    &:hover {
+                    color: $theme-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.work-list {
+    padding-right: 15px;
+    @media (max-width: 767px){
+      padding-right: 0;
+    }
+    .work-nav{
+      justify-content: center;
+      @media (min-width:768px){
+        margin-left: 1rem;
+        justify-content: flex-start;
+      }
+    }
+    .control {
+      &:after{
+        background-color: $theme-color;
+      }  
+      &.filtr-active,
+      &:hover {
+        color: $theme-color;
+      }
+    }
+}
+
+.swiper-pagination.pagination-white{
+    .swiper-pagination-bullet{
+        background: $white;
+        opacity: 1;
+    }
+    .swiper-pagination-bullet-active{
+        background: $theme-color;
+    }
+}
+
+
+.video-btn{
+    a{
+        color: $theme-color;
+        &:hover{
+            background: $theme-color;
+            color: $white;
+        }
+    }
+}
